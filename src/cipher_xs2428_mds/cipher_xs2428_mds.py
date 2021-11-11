@@ -1,12 +1,15 @@
 def cipher(text, shift, encrypt=True):
     """
     One of the simplest and most widely known encryption techniques. 
+    
     Inputs
     ----------
     a single word/ words/ the text contains symbols/ a sentence
+    
     Outputs
     -------
     For each letter in inputs, it is replaced by a letter some fixed number of positions down the alphabet.
+    
     Examples
     --------
     >>> example = 'Apple'
